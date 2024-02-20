@@ -17,6 +17,21 @@ namespace DotNetCore.Controllers
             _context = context;
         }
 
+        [HttpPost("register")]
+        public async Task<IActionResult> Register(User user)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Users.Add(user);
+                await _context.SaveChangesAsync();
+                return Ok("User registered successfully");
+            }
+
+            // Invalid credentials
+            return BadRequest("Invalid email or password");
+
+        }
+
         [HttpPost("login")]
         public async Task<IActionResult> Login(User loginRequest)
         {

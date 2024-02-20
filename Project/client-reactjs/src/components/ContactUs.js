@@ -10,8 +10,8 @@ const ContactUs = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+    .sendForm('service_ylpqctv', 'template_3ppds8q', form.current, {
+      publicKey: 'j-qC8kSsHZHwgp5ai',
       })
       .then(
         () => {

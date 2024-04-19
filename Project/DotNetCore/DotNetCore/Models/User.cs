@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DotNetCore.Models
@@ -6,6 +7,8 @@ namespace DotNetCore.Models
     [Table("User")]
     public class User
 	{
+		[Key]
+		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 		public int Id { get; set; }
 
 		public string Email { get; set; }

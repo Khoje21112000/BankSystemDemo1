@@ -55,5 +55,12 @@ namespace DotNetCore.Controllers
             // Invalid data
             return BadRequest("Invalid data");
         }
+        [HttpGet("getAll")]
+        public async Task<IActionResult> GetAll()
+        {
+            var users = await _context.Users.ToListAsync();
+            return Ok(users);
+        }
+
     }
 }

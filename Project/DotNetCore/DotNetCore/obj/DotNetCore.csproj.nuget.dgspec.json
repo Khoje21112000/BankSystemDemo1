@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jarvis/Desktop/CDACSEPT23/Project/DotNetCore/DotNetCore/DotNetCore.csproj": {}
+    "C:\\Users\\Freq\\Desktop\\BankSystemDemo1\\CDACSEPT23\\Project\\DotNetCore\\DotNetCore\\DotNetCore.csproj": {}
   },
   "projects": {
-    "/Users/jarvis/Desktop/CDACSEPT23/Project/DotNetCore/DotNetCore/DotNetCore.csproj": {
+    "C:\\Users\\Freq\\Desktop\\BankSystemDemo1\\CDACSEPT23\\Project\\DotNetCore\\DotNetCore\\DotNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jarvis/Desktop/CDACSEPT23/Project/DotNetCore/DotNetCore/DotNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\Freq\\Desktop\\BankSystemDemo1\\CDACSEPT23\\Project\\DotNetCore\\DotNetCore\\DotNetCore.csproj",
         "projectName": "DotNetCore",
-        "projectPath": "/Users/jarvis/Desktop/CDACSEPT23/Project/DotNetCore/DotNetCore/DotNetCore.csproj",
-        "packagesPath": "/Users/jarvis/.nuget/packages/",
-        "outputPath": "/Users/jarvis/Desktop/CDACSEPT23/Project/DotNetCore/DotNetCore/obj/",
+        "projectPath": "C:\\Users\\Freq\\Desktop\\BankSystemDemo1\\CDACSEPT23\\Project\\DotNetCore\\DotNetCore\\DotNetCore.csproj",
+        "packagesPath": "C:\\Users\\Freq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Freq\\Desktop\\BankSystemDemo1\\CDACSEPT23\\Project\\DotNetCore\\DotNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jarvis/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Freq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -87,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
